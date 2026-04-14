@@ -37,3 +37,15 @@ confusion. Archived duplicates retained in:
 ## Dataset Source
 UCI Machine Learning Repository:
 https://archive.ics.uci.edu/ml/datasets/concrete+compressive+strength
+
+## Build and Run the Prediction UI
+This project now includes a Streamlit app for interactive concrete strength prediction.
+
+1. Activate your virtual environment.
+2. Install dependencies:
+	`pip install -r requirements.txt`
+3. Run the app:
+	`streamlit run app.py`
+
+The app loads `Concrete Compressive Strength/Concrete_Data.csv`, trains the selected model,
+and predicts compressive strength from your input values.
